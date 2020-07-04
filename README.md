@@ -2,9 +2,9 @@
 
 Static Website that focuses on Front-end skills. Developed by HTML, CSS, Bootstrap and JavaScript.
 
-## Project Screenshots
+#### To Visit App:
 
-![NETEL Website](https://i.ibb.co/r5qLzv5/NETEL-output-1.png)
+`https://sherifashraf98.github.io/Netel-static-website/`  
 
 ## Installation and Setup Instructions
 
@@ -12,3 +12,6 @@ Static Website that focuses on Front-end skills. Developed by HTML, CSS, Bootstr
 
 * Open (index.html) by any browser (chrome recommended)  
  
+## Project Screenshots
+
+![NETEL Website](https://i.ibb.co/r5qLzv5/NETEL-output-1.png)

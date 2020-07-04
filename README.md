@@ -4,7 +4,7 @@ Static Website that focuses on Front-end skills. Developed by HTML, CSS, Bootstr
 
 ## Project Screenshots
 
-![NETEL Website](https://ibb.co/P1JbPt1)
+![NETEL Website](https://i.ibb.co/r5qLzv5/NETEL-output-1.png)
 
 ## Installation and Setup Instructions
 

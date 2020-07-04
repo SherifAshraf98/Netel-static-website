@@ -245,4 +245,8 @@ margin: 30px;
 
     grid-template-columns:repeat(2, 1fr);
   }
+  @media screen and (max-width:580px) {
+    .copyright-container, .outer-footer-container{
+      padding-left: 20px;
+    }
 }

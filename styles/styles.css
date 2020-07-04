@@ -1,0 +1,248 @@
+body {
+  background-color: #000;
+}
+/* NavBar */
+.navbar {
+  background-color: #202020;
+  position: relative;
+  top: 20px;
+  z-index: 2;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.left-color-navbar {
+  background-color: #d54ab6;
+  width: 7px;
+  height:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.icon-round-navbar {
+  background-color: #d54ab6;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.home-nav-item{
+  background-color: #333333;
+}
+
+.navbar ul li {
+  padding: 15px 10px;
+  font-size: 13px;
+}
+.navbar ul li a{
+  color: #f2f4fb;
+}
+.navbar-brand{
+  color: #f2f4fb;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Cards */
+.cards-container{
+  margin-top: -30px;
+  padding: 0;
+}
+.cards-specs{
+background-color: #c14000;
+height: 250px;
+text-align: center;
+margin: 30px;
+}
+.cards-specs img{
+  width: 50px;
+}
+.card{
+  padding: 30px 20px;
+  color: #fff;
+  border-radius: 0;
+}
+.first-card{
+  background-color: #c14000;
+}
+.second-card{
+  background-color: #009988;
+}
+.third-card{
+  background-color: #ffa500;
+}
+.card img{
+  margin-bottom: 20px;
+}
+.card h2{
+  font-weight: 600;
+  font-size: 35px;
+}
+.card p{
+  font-size: 17px;
+  font-weight: 100;
+}
+
+/* Startup Container */
+.startup-container {
+  background-color: #202020;
+  padding: 0;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(285px,auto);
+}
+.startup-container img{
+  width: 100%;
+  place-self: center center;
+}
+
+.startup-container h2{
+  color: #fff;
+  margin: 20px 30px;
+}
+.startup-container p{
+  color: #979797;
+  margin: 20px 30px;
+}
+.startup-container .btn{
+  margin: 15px 30px;
+}
+
+/* Projects Container */
+.projects-container{
+  text-align: center;
+  padding: 0;
+}
+.projects-container h2{
+  color: #fff;
+}
+.projects-container p{
+  color: #979797;
+  width: 60%;
+  margin: 40px auto;
+}
+.images-wrapper img{
+  width: 100%;
+}
+.upper-images-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.upper-images-wrapper img{
+  height: 246px;
+}
+.lower-images-wrapper{
+  display: grid;
+  grid-template-columns:repeat(4, 1fr);
+}
+.lower-images-wrapper img{
+  height: 184px;
+}
+.modal-button-image{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#image-in-modal{
+  width: 100%;
+}
+
+/*To deactivate button on-click effect*/
+.images-wrapper .btn-primary:hover,.btn-primary:focus,.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus, .btn:active, .btn:hover{
+    box-shadow: none!important;
+    outline: 0;
+}
+
+.info-button{
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 0;
+  margin: 40px auto;
+}
+
+/* Footer */
+.outer-footer-container{
+  background-color: #202020;
+  padding: 60px 0;
+}
+.inner-footer-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #202020;
+  padding: 0;
+}
+.footer-component{
+  padding-right: 60px;
+}
+.inner-footer-container h3{
+  color: #fff
+}
+.inner-footer-container p{
+  color: #888888;
+  font-size: 12px;
+}
+.middle-footer-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.right-footer-wrapper input{
+  display: block;
+  border: 0.5px solid #eeeeee;
+  background-color: #202020;
+  color: #fff;
+  padding: 4px 10px;
+  width: 70%;
+  font-size: 14px;
+}
+.right-footer-wrapper input:focus{
+  color: #fff;
+}
+.right-footer-wrapper button{
+  display: block;
+  margin: 10px 0;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #fff;
+}
+
+.left-footer-wrapper a{
+  margin-left: 15px;
+}
+.left-footer-wrapper i{
+  margin-right: 15px;
+}
+
+.copyright-container{
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Media Queries */
+@media screen and (max-width:990px) {
+  .startup-container {
+    grid-template-columns: 1fr;
+  }
+  .inner-footer-container{
+    grid-template-columns: 1fr;
+  }
+  .middle-footer-wrapper{
+    justify-items: left;
+  }
+  .lower-images-wrapper{
+
+    grid-template-columns:repeat(2, 1fr);
+  }
+}

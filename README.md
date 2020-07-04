@@ -1,10 +1,20 @@
 ## NETEL WEBSITE
 
-Static Website that focuses on Front-end skills. Developed by HTML, CSS, Bootstrap and JavaScript.
+Static Website that focuses on Front-end skills, displaying basic information about a company.
 
-#### To Visit App:
- 
-<a href="https://sherifashraf98.github.io/Netel-static-website/">NETEL Website</a>
+## Developed using these technologies:
+* HTML
+* CSS
+* Bootstrap
+* JavaScript.
+
+#### Website Link:
+
+<a href="https://sherifashraf98.github.io/Netel-static-website/">https://sherifashraf98.github.io/Netel-static-website/</a>
+
+#### Video showing website usage:
+
+<a href="https://www.youtube.com/watch?v=8vC8F3QTbso">https://www.youtube.com/watch?v=8vC8F3QTbso</a>
 
 ## Installation and Setup Instructions
 
